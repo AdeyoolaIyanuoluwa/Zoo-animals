@@ -2,8 +2,21 @@ body{
     background-image: url('nayure.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
-#display{
-    height: 200px;
+#disp{
+    height: 60vh;
+    width: 50%;
+    background-color: aqua;
+    line-height: 2em; 
+    text-align: left;
+}
+#image{
+    background-color: red;
+    height: 60vh;
+    width: 50%;
+}
+p{
+    font-size: 30px;
+    /* font-weight: 300; */
 }
