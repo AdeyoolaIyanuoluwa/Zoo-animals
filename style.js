@@ -12,7 +12,9 @@ const getMovie =  async() =>{
                 <h1>Lifespan:${animalInfo[0].lifespan}</h1>
                 <h1>Weight:${animalInfo[0].weight_max}</h1>
                 <h1>Diet:${animalInfo[0].diet}</h1>
-                `     
+                `   
+           Image.innerHTML = `
+           <img src="${animalInfo[0].image_link}">`       
 }
 
 
