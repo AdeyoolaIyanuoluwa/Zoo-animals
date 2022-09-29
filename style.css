@@ -1,27 +1,26 @@
 body{
-    background-image: url('nayure.jpg');
+    background-image: url('pexels-pixabay-414320.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 section{
-    margin-top: 70px;
+    margin-top: 60px;
+    background-color: rgb(202, 202, 245);
+    border-radius: 5%;
 }
 #disp{
     height: 70vh;
     width: 50%;
-    background-color: aqua;
     line-height: 2em; 
     text-align: left;
 }
 #image{
-    background-color: red;
     height: 70vh;
     width: 50%;
 }
 p{
-    font-size: 30px;
-    /* font-weight: 300; */
+    font-size: 30px; 
 }
 .btn{
     background-color: rgb(7, 17, 7);
