@@ -2,7 +2,7 @@ body{
     background-image: url('pexels-pixabay-414320.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 section{
     margin-top: 60px;
@@ -31,6 +31,12 @@ p{
 
 @media screen and (max-width:1024px) {
     .box{
-        display: flex;
+        display: block;
+    }
+    #disp{
+        height: 70vh;
+        width: 50%;
+        line-height: 1.5em; 
+        text-align: left;
     }
 }
