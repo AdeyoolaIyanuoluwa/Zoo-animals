@@ -31,9 +31,18 @@ p{
 
 @media screen and (max-width:1024px) {
     #disp{
-        height: 70vh;
-        width: 50%;
+        height: 40vh;
+        width: 100%;
         line-height: 1.5em; 
         text-align: left;
+    }
+    section{
+        margin-top: 10px;
+        border-radius: 0;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
     }
 }
