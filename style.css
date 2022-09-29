@@ -9,9 +9,9 @@ section{
     background-color: rgb(202, 202, 245);
     border-radius: 5%;
 }
-.box{
+/* .box{
     display: flex;
-}
+} */
 #disp{
     height: 70vh;
     width: 50%;
@@ -30,9 +30,6 @@ p{
 }
 
 @media screen and (max-width:1024px) {
-    .box{
-        display: block;
-    }
     #disp{
         height: 70vh;
         width: 50%;
