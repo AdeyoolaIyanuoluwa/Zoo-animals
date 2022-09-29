@@ -6,7 +6,7 @@ const getMovie =  async() =>{
     console.log(jsonResponse)
     animalInfo.push(jsonResponse)
         disp.innerHTML =`
-                <h1>Name:${animalInfo[0].name}</h1>
+                <h2>Name:${animalInfo[0].name}</h1>
                 <h1>Latin name:${animalInfo[0].latin_name}</h1>
                 <h1>Habitat:${animalInfo[0].habitat}</h1>
                 <h1>Lifespan:${animalInfo[0].lifespan}</h1>
