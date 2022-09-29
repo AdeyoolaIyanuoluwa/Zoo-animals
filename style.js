@@ -6,16 +6,16 @@ const getMovie =  async() =>{
     console.log(jsonResponse)
     animalInfo.push(jsonResponse)
         disp.innerHTML =`
-                <h2>Name:${animalInfo[0].name}</h1>
+                <h2>Name:${animalInfo[0].name}</h2>
                 <h1>Latin name:${animalInfo[0].latin_name}</h1>
                 <h1>Habitat:${animalInfo[0].habitat}</h1>
                 <h1>Lifespan:${animalInfo[0].lifespan}</h1>
                 <h1>Weight:${animalInfo[0].weight_max}</h1>
                 <h1>Diet:${animalInfo[0].diet}</h1>
-                <img class = "w-50" src="${animalInfo[0].image_link}">
+                
                 `   
-        //    image.innerHTML = `
-        //    <img class = "w-50" src="${animalInfo[0].image_link}">`       
+           image.innerHTML = `
+           <img class = "w-50" src="${animalInfo[0].image_link}">`       
 }
 
 
