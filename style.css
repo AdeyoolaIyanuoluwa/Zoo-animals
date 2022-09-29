@@ -2,16 +2,13 @@ body{
     background-image: url('pexels-pixabay-414320.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 section{
     margin-top: 60px;
     background-color: rgb(202, 202, 245);
     border-radius: 5%;
 }
-/* .box{
-    display: flex;
-} */
 #disp{
     height: 70vh;
     width: 50%;
@@ -45,15 +42,12 @@ p{
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid rgba(255, 255, 255, 0.3); */
-        /* box-shadow: 2px 2px 13px 4px rgb(180, 164, 164); */
     }
     p{
         font-size: 25px; 
         /* font-weight: bolder; */
     }
     #image{
-        /* height: 70vh; */
         width: 100%;
     }
 }
