@@ -28,6 +28,9 @@ p{
 .btn{
     background-color: rgb(7, 17, 7);
 }
+.img{
+    height: 300px;
+}
 
 @media screen and (max-width:1024px) {
     #disp{
@@ -40,9 +43,17 @@ p{
         margin-top: 10px;
         border-radius: 0;
         background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
+        /* border: 1px solid rgba(255, 255, 255, 0.3); */
+        /* box-shadow: 2px 2px 13px 4px rgb(180, 164, 164); */
+    }
+    p{
+        font-size: 25px; 
+        /* font-weight: bolder; */
+    }
+    #image{
+        /* height: 70vh; */
+        width: 100%;
     }
 }
