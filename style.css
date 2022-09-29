@@ -4,8 +4,11 @@ body{
     background-repeat: no-repeat;
     /* overflow: hidden; */
 }
+section{
+    margin-top: 70px;
+}
 #disp{
-    height: 60vh;
+    height: 70vh;
     width: 50%;
     background-color: aqua;
     line-height: 2em; 
@@ -13,10 +16,13 @@ body{
 }
 #image{
     background-color: red;
-    height: 60vh;
+    height: 70vh;
     width: 50%;
 }
 p{
     font-size: 30px;
     /* font-weight: 300; */
+}
+.btn{
+    background-color: rgb(7, 17, 7);
 }
