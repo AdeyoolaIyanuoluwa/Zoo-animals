@@ -4,3 +4,6 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
 }
+#display{
+    height: 200px;
+}
