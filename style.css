@@ -9,6 +9,9 @@ section{
     background-color: rgb(202, 202, 245);
     border-radius: 5%;
 }
+.box{
+    display: flex;
+}
 #disp{
     height: 70vh;
     width: 50%;
@@ -24,4 +27,10 @@ p{
 }
 .btn{
     background-color: rgb(7, 17, 7);
+}
+
+@media screen and (max-width:1024px) {
+    .box{
+        display: flex;
+    }
 }
