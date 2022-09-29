@@ -15,7 +15,7 @@ const getMovie =  async() =>{
                 
                 `   
            image.innerHTML = `
-           <img class = "w-75" src="${animalInfo[0].image_link}">`       
+           <img class = "w-100" src="${animalInfo[0].image_link}">`       
 }
 
 
